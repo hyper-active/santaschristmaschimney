@@ -11,12 +11,13 @@
       <a-assets>
         <img id="lake" src="lake.jpg">
         <img id="pdx" src="portland.png">
+        <img id="my-texture" src="Tunnel.jpg">
         <a-asset-item id="sculpture" src="sculpture.obj"></a-asset-item>
         <a-asset-item id="sculpture" src="sculpture.mtl"></a-asset-item>
       </a-assets>
 
       <a-sky src="#lake"></a-sky>
-      <a-obj-model src="#sculpture.obj" mtl="#sculpture.mtl" position="0 0 -6"></a-obj-model>
+      <a-obj-model src="#sculpture.obj" mtl="#sculpture.mtl" material="src: #my-texture" position="0 0 -6"></a-obj-model>
       <a-image src="#pdx" width="10" height="5" position="-2 1.2 -3"
                scale="0.2 0.2 0.2"></a-image>
     </a-scene>
