@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
   <asset><contributor><author></author><authoring_tool>FBX COLLADA exporter</authoring_tool><comments></comments></contributor><created>2016-11-18T14:47:58Z</created><keywords></keywords><modified>2016-11-18T14:47:58Z</modified><revision></revision><subject></subject><title></title><unit meter="0.010000" name="centimeter"></unit><up_axis>Y_UP</up_axis></asset>
-  <library_images>
-    <image id="MapFBXASC032FBXASC0356-image" name="MapFBXASC032FBXASC0356"><init_from>Tunnel.jpg</init_from></image>
-  </library_images>
+  		<library_images>
+    <image id="MapFBXASC032FBXASC0356-image">
+	<init_from>sculpture-tex.jpg</init_from>
+	</image>
+  		</library_images>
   <library_materials>
     <material id="FBXASC0490FBXASC032FBXASC045FBXASC032Default" name="FBXASC0490FBXASC032FBXASC045FBXASC032Default">
       <instance_effect url="#FBXASC0490FBXASC032FBXASC045FBXASC032Default-fx"/>
